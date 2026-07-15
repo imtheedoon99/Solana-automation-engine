@@ -1,0 +1,24 @@
+{
+  "name": "solana-automation-engine",
+  "version": "1.0.0",
+  "description": "Optimized Solana copy-trading, new pair detection, and token migration automation engine using Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.91.0",
+    "dotenv": "^16.4.5",
+    "bs58": "^5.0.0"
+  },
+  "keywords": [
+    "solana",
+    "mev",
+    "copy-trading",
+    "pump-fun",
+    "automation",
+    "new-pairs"
+  ],
+  "author": "Mohammad Murtaza",
+  "license": "MIT"
+}

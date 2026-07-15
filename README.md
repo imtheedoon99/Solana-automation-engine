@@ -4,6 +4,8 @@
 [![Runtime Engine](https://shields.io)](https://nodejs.org)
 [![Build Protocol](https://shields.io)](#)
 
+![Live Terminal Logs](Screenshot%202026-07-16%20032629.png)
+
 This repository contains the optimized, rate-limited public release of a production-ready Solana trading infrastructure built natively in **Node.js**. Engineered for extreme speed, low-latency data parsing, and optimized RPC communication, this engine targets automated execution within the `pump.fun` and Raydium migration pipelines.
 
 ---
@@ -20,11 +22,14 @@ The production core is split into two specialized sub-systems designed to delive
 ### 2. Raydium Migration & Filter Bot
 * **Instant Migration Monitoring:** Automated triggers fire the millisecond a token transitions from bonding curve pools into active Raydium liquidity contracts.
 * **Algorithmic Technical Filter:** Bypasses generic hype metrics to calculate and execute orders exclusively when specific Relative Strength Index (RSI) thresholds are hit on the micro-charts.
-* **Risk Mitigation Filters:** Evaluates contract variables (e.g., mint authority status, top-holder concentration ratios) dynamically before signing transactions. 
+* **Risk Mitigation Filters:** Evaluates contract variables (e.g., mint authority status, top-holder concentration ratios) dynamically before signing transactions.
 
-### 3 New Pair Detection 
-* **Instant new pair detection and perfect monitoring and is customised for high end delivery of evry token and triggers buy sell thereshold instantly at liquidity, buy,sell,solfee,all kind of passing filter then verify and launch fire buy low latency buying and selling speed at bonding curve 
-** 🛠️ Environment Configuration
+### 3. New Pair Detection
+* **Instant New Pair Detection:** Real-time pool monitoring engineered for hyper-fast detection and automated purchase routing the moment new pairs initialize on-chain.
+
+---
+
+## 🛠️ Environment Configuration
 
 To configure the public environment framework, set up your variables in a root `.env` file:
 
@@ -74,3 +79,5 @@ Let’s discuss optimizing your project's infrastructure or engineering a custom
 
 * **Telegram:** [@IMTHEDON999](https://t.me)
 * **X (Twitter):** [@Mommed999](https://x.com)
+
+
